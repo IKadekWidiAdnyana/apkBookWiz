@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ApkBookWiz"
+        tools:targetApi="31">
+        <activity
+            android:name=".teknologi.bukuteknologi6"
+            android:exported="false" />
+        <activity
+            android:name=".teknologi.bukuteknologi5"
+            android:exported="false" />
+        <activity
+            android:name=".teknologi.bukuteknologi4"
+            android:exported="false" />
+        <activity
+            android:name=".teknologi.bukuteknologi3"
+            android:exported="false" />
+        <activity
+            android:name=".teknologi.bukuteknologi2"
+            android:exported="false" />
+        <activity
+            android:name=".teknologi.bukuteknologi1"
+            android:exported="false" />
+        <activity
+            android:name=".sains.bukusains6"
+            android:exported="false" />
+        <activity
+            android:name=".sains.bukusains5"
+            android:exported="false" />
+        <activity
+            android:name=".sains.bukusains4"
+            android:exported="false" />
+        <activity
+            android:name=".sains.bukusains3"
+            android:exported="false" />
+        <activity
+            android:name=".sains.bukusains2"
+            android:exported="false" />
+        <activity
+            android:name=".sains.bukusains1"
+            android:exported="false" />
+        <activity
+            android:name=".novel.bukunovel6"
+            android:exported="false" />
+        <activity
+            android:name=".novel.bukunovel5"
+            android:exported="false" />
+        <activity
+            android:name=".novel.bukunovel4"
+            android:exported="false" />
+        <activity
+            android:name=".novel.bukunovel3"
+            android:exported="false" />
+        <activity
+            android:name=".novel.bukunovel2"
+            android:exported="false" />
+        <activity
+            android:name=".novel.bukunovel1"
+            android:exported="false" />
+        <activity
+            android:name=".fiksi.bukufiksi6"
+            android:exported="false" />
+        <activity
+            android:name=".fiksi.bukufiksi5"
+            android:exported="false" />
+        <activity
+            android:name=".fiksi.bukufiksi4"
+            android:exported="false" />
+        <activity
+            android:name=".fiksi.bukufiksi3"
+            android:exported="false" />
+        <activity
+            android:name=".fiksi.bukufiksi2"
+            android:exported="false" />
+        <activity
+            android:name=".fiksi.bukufiksi1"
+            android:exported="false" />
+        <activity
+            android:name=".bukufiksi.fiksi1"
+            android:exported="false" />
+        <activity
+            android:name=".profilPage"
+            android:exported="false" />
+        <activity
+            android:name=".myBookPage"
+            android:exported="false" />
+        <activity
+            android:name=".wishlistPage"
+            android:exported="false" />
+        <activity
+            android:name=".aboutPage"
+            android:exported="false" />
+        <activity
+            android:name=".regisPage"
+            android:exported="false" />
+        <activity
+            android:name=".loginPage"
+            android:exported="false" />
+        <activity
+            android:name=".novelPage"
+            android:exported="false" />
+        <activity
+            android:name=".sainsPage"
+            android:exported="false" />
+        <activity
+            android:name=".teknologiPage"
+            android:exported="false" />
+        <activity
+            android:name=".fiksiPage"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".splashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
