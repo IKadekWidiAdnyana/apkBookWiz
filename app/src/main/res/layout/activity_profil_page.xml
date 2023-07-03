@@ -63,7 +63,7 @@
             android:fontFamily="@font/montserrat_medium"
             android:paddingStart="20dp"
             android:paddingTop="10dp"
-            android:text="bookwiz@gmailcom"
+            android:text="bookwiz@gmail.com"
             android:textColor="#FFFFFF"
             android:textSize="16sp" />
 
