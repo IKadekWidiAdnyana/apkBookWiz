@@ -8,6 +8,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.example.apkbookwiz.detailBukuNovel.detBukuNovel1;
+import com.example.apkbookwiz.detailBukuNovel.detBukuNovel2;
+import com.example.apkbookwiz.detailBukuNovel.detBukuNovel3;
+import com.example.apkbookwiz.detailBukuNovel.detBukuNovel4;
+import com.example.apkbookwiz.detailBukuNovel.detBukuNovel5;
+import com.example.apkbookwiz.detailBukuNovel.detBukuNovel6;
 import com.example.apkbookwiz.novel.bukunovel1;
 import com.example.apkbookwiz.novel.bukunovel2;
 import com.example.apkbookwiz.novel.bukunovel3;
@@ -34,7 +40,7 @@ public class novelPage extends AppCompatActivity {
         novel1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(novelPage.this, bukunovel1.class);
+                Intent intent = new Intent(novelPage.this, detBukuNovel1.class);
                 startActivity(intent);
             }
         });
@@ -42,7 +48,7 @@ public class novelPage extends AppCompatActivity {
         novel2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(novelPage.this, bukunovel2.class);
+                Intent intent = new Intent(novelPage.this, detBukuNovel2.class);
                 startActivity(intent);
             }
         });
@@ -50,7 +56,7 @@ public class novelPage extends AppCompatActivity {
         novel3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(novelPage.this, bukunovel3.class);
+                Intent intent = new Intent(novelPage.this, detBukuNovel3.class);
                 startActivity(intent);
             }
         });
@@ -58,7 +64,7 @@ public class novelPage extends AppCompatActivity {
         novel4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(novelPage.this, bukunovel4.class);
+                Intent intent = new Intent(novelPage.this, detBukuNovel4.class);
                 startActivity(intent);
             }
         });
@@ -66,7 +72,7 @@ public class novelPage extends AppCompatActivity {
         novel5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(novelPage.this, bukunovel5.class);
+                Intent intent = new Intent(novelPage.this, detBukuNovel5.class);
                 startActivity(intent);
             }
         });
@@ -74,7 +80,7 @@ public class novelPage extends AppCompatActivity {
         novel6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(novelPage.this, bukunovel6.class);
+                Intent intent = new Intent(novelPage.this, detBukuNovel6.class);
                 startActivity(intent);
             }
         });

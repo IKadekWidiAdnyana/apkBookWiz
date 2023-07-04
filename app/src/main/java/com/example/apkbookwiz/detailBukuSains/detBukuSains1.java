@@ -22,7 +22,6 @@ public class detBukuSains1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_det_buku_sains1);
-
         back_sains= findViewById(R.id.back_sains);
         btn_read= findViewById(R.id.btn_read);
         btn_wistlist= findViewById(R.id.btn_wistlist);

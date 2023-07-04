@@ -8,6 +8,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.example.apkbookwiz.detailBukuTeknologi.detBukuTeknologi1;
+import com.example.apkbookwiz.detailBukuTeknologi.detBukuTeknologi2;
+import com.example.apkbookwiz.detailBukuTeknologi.detBukuTeknologi3;
+import com.example.apkbookwiz.detailBukuTeknologi.detBukuTeknologi4;
+import com.example.apkbookwiz.detailBukuTeknologi.detBukuTeknologi5;
+import com.example.apkbookwiz.detailBukuTeknologi.detBukuTeknologi6;
 import com.example.apkbookwiz.teknologi.bukuteknologi1;
 import com.example.apkbookwiz.teknologi.bukuteknologi2;
 import com.example.apkbookwiz.teknologi.bukuteknologi3;
@@ -42,7 +48,7 @@ public class teknologiPage extends AppCompatActivity {
         teknologi1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(teknologiPage.this, bukuteknologi1.class);
+                Intent intent = new Intent(teknologiPage.this, detBukuTeknologi1.class);
                 startActivity(intent);
             }
         });
@@ -50,7 +56,7 @@ public class teknologiPage extends AppCompatActivity {
         teknologi2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(teknologiPage.this, bukuteknologi2.class);
+                Intent intent = new Intent(teknologiPage.this, detBukuTeknologi2.class);
                 startActivity(intent);
             }
         });
@@ -58,7 +64,7 @@ public class teknologiPage extends AppCompatActivity {
         teknologi3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(teknologiPage.this, bukuteknologi3.class);
+                Intent intent = new Intent(teknologiPage.this, detBukuTeknologi3.class);
                 startActivity(intent);
             }
         });
@@ -66,7 +72,7 @@ public class teknologiPage extends AppCompatActivity {
         teknologi4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(teknologiPage.this, bukuteknologi4.class);
+                Intent intent = new Intent(teknologiPage.this, detBukuTeknologi4.class);
                 startActivity(intent);
             }
         });
@@ -74,7 +80,7 @@ public class teknologiPage extends AppCompatActivity {
         teknologi5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(teknologiPage.this, bukuteknologi5.class);
+                Intent intent = new Intent(teknologiPage.this, detBukuTeknologi5.class);
                 startActivity(intent);
             }
         });
@@ -82,7 +88,7 @@ public class teknologiPage extends AppCompatActivity {
         teknologi6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(teknologiPage.this, bukuteknologi6.class);
+                Intent intent = new Intent(teknologiPage.this, detBukuTeknologi6.class);
                 startActivity(intent);
             }
         });

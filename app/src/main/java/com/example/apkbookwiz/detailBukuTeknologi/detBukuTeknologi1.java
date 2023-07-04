@@ -11,6 +11,8 @@ import com.example.apkbookwiz.R;
 import com.example.apkbookwiz.detailBukuNovel.detBukuNovel1;
 import com.example.apkbookwiz.novel.bukunovel1;
 import com.example.apkbookwiz.novelPage;
+import com.example.apkbookwiz.teknologi.bukuteknologi1;
+import com.example.apkbookwiz.teknologiPage;
 import com.example.apkbookwiz.wishlistPage;
 
 public class detBukuTeknologi1 extends AppCompatActivity {
@@ -27,7 +29,7 @@ public class detBukuTeknologi1 extends AppCompatActivity {
         back_teknologi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(detBukuTeknologi1.this, novelPage.class);
+                Intent intent = new Intent(detBukuTeknologi1.this, teknologiPage.class);
                 startActivity(intent);
             }
         });
@@ -35,7 +37,7 @@ public class detBukuTeknologi1 extends AppCompatActivity {
         btn_read.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(detBukuTeknologi1.this, bukunovel1.class);
+                Intent intent = new Intent(detBukuTeknologi1.this, bukuteknologi1.class);
                 startActivity(intent);
             }
         });

@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/montserrat_medium"
-            android:text="BOOKW!Z adalah layanan perpustakaan digital yang menyediakan akses untuk meminjam buku. Aplikasi ini dapat diakses melalui smartphone kapanpun dan dimanapun."
+            android:text="BOOKW!Z adalah layanan e-book yang menyediakan akses untuk membaca buku. Aplikasi ini dapat diakses melalui smartphone kapanpun dan dimanapun."
             android:textAlignment="center" />
 
         <TextView

@@ -22,7 +22,7 @@ public class detBukuNovel1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_det_buku_novel1);
-        back_novel= findViewById(R.id.back_fiksi);
+        back_novel= findViewById(R.id.back_novel);
         btn_read= findViewById(R.id.btn_read);
         btn_wistlist= findViewById(R.id.btn_wistlist);
 

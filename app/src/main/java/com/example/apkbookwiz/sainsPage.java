@@ -8,6 +8,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.example.apkbookwiz.detailBukuSains.detBukuSains1;
+import com.example.apkbookwiz.detailBukuSains.detBukuSains2;
+import com.example.apkbookwiz.detailBukuSains.detBukuSains3;
+import com.example.apkbookwiz.detailBukuSains.detBukuSains4;
+import com.example.apkbookwiz.detailBukuSains.detBukuSains5;
+import com.example.apkbookwiz.detailBukuSains.detBukuSains6;
 import com.example.apkbookwiz.sains.bukusains1;
 import com.example.apkbookwiz.sains.bukusains2;
 import com.example.apkbookwiz.sains.bukusains3;
@@ -43,7 +49,7 @@ public class sainsPage extends AppCompatActivity {
         sains1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(sainsPage.this, bukusains1.class);
+                Intent intent = new Intent(sainsPage.this, detBukuSains1.class);
                 startActivity(intent);
             }
         });
@@ -51,7 +57,7 @@ public class sainsPage extends AppCompatActivity {
         sains2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(sainsPage.this, bukusains2.class);
+                Intent intent = new Intent(sainsPage.this, detBukuSains2.class);
                 startActivity(intent);
             }
         });
@@ -59,7 +65,7 @@ public class sainsPage extends AppCompatActivity {
         sains3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(sainsPage.this, bukusains3.class);
+                Intent intent = new Intent(sainsPage.this, detBukuSains3.class);
                 startActivity(intent);
             }
         });
@@ -67,7 +73,7 @@ public class sainsPage extends AppCompatActivity {
         sains4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(sainsPage.this, bukusains4.class);
+                Intent intent = new Intent(sainsPage.this, detBukuSains4.class);
                 startActivity(intent);
             }
         });
@@ -75,7 +81,7 @@ public class sainsPage extends AppCompatActivity {
         sains5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(sainsPage.this, bukusains5.class);
+                Intent intent = new Intent(sainsPage.this, detBukuSains5.class);
                 startActivity(intent);
             }
         });
@@ -83,7 +89,7 @@ public class sainsPage extends AppCompatActivity {
         sains6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(sainsPage.this, bukusains6.class);
+                Intent intent = new Intent(sainsPage.this, detBukuSains6.class);
                 startActivity(intent);
             }
         });

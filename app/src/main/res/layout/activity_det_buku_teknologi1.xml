@@ -43,7 +43,7 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/novel1"
+            app:srcCompat="@drawable/teknologi1"
             android:layout_marginTop="20dp"/>
 
 
@@ -87,7 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/montserrat_medium"
-            android:text="Ini buku novel" />
+            android:text="Ini buku teknologi" />
 
         <TextView
             android:id="@+id/textView7"
