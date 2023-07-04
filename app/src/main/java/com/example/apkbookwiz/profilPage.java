@@ -22,10 +22,6 @@ public class profilPage extends AppCompatActivity {
     String password;
     TextView emailTextView, passwordTextView;
 
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
