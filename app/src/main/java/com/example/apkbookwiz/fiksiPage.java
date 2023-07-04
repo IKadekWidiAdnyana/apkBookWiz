@@ -9,12 +9,11 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.apkbookwiz.detailBukuFiksi1.detBukuFiksi1;
-import com.example.apkbookwiz.fiksi.bukufiksi1;
-import com.example.apkbookwiz.fiksi.bukufiksi2;
-import com.example.apkbookwiz.fiksi.bukufiksi3;
-import com.example.apkbookwiz.fiksi.bukufiksi4;
-import com.example.apkbookwiz.fiksi.bukufiksi5;
-import com.example.apkbookwiz.fiksi.bukufiksi6;
+import com.example.apkbookwiz.detailBukuFiksi1.detBukuFiksi2;
+import com.example.apkbookwiz.detailBukuFiksi1.detBukuFiksi3;
+import com.example.apkbookwiz.detailBukuFiksi1.detBukuFiksi4;
+import com.example.apkbookwiz.detailBukuFiksi1.detBukuFiksi5;
+import com.example.apkbookwiz.detailBukuFiksi1.detBukuFiksi6;
 
 public class fiksiPage extends AppCompatActivity {
 
@@ -44,7 +43,7 @@ public class fiksiPage extends AppCompatActivity {
         fiksi2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(fiksiPage.this, bukufiksi2.class);
+                Intent intent = new Intent(fiksiPage.this, detBukuFiksi2.class);
                 startActivity(intent);
             }
         });
@@ -52,7 +51,7 @@ public class fiksiPage extends AppCompatActivity {
         fiksi3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(fiksiPage.this, bukufiksi3.class);
+                Intent intent = new Intent(fiksiPage.this, detBukuFiksi3.class);
                 startActivity(intent);
             }
         });
@@ -60,7 +59,7 @@ public class fiksiPage extends AppCompatActivity {
         fiksi4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(fiksiPage.this, bukufiksi4.class);
+                Intent intent = new Intent(fiksiPage.this, detBukuFiksi4.class);
                 startActivity(intent);
             }
         });
@@ -68,7 +67,7 @@ public class fiksiPage extends AppCompatActivity {
         fiksi5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(fiksiPage.this, bukufiksi5.class);
+                Intent intent = new Intent(fiksiPage.this, detBukuFiksi5.class);
                 startActivity(intent);
             }
         });
@@ -76,7 +75,7 @@ public class fiksiPage extends AppCompatActivity {
         fiksi6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(fiksiPage.this, bukufiksi6.class);
+                Intent intent = new Intent(fiksiPage.this, detBukuFiksi6.class);
                 startActivity(intent);
             }
         });
