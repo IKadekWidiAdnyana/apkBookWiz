@@ -3,7 +3,9 @@ package com.example.apkbookwiz;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -65,6 +67,11 @@ public class loginPage extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()){
                                     Toast.makeText(loginPage.this, "Login Berhasil", Toast.LENGTH_SHORT).show();
+                                    SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+                                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                                    editor.putString("email", inputUsername);
+                                    editor.putString("password", inputPassword);
+                                    editor.apply();
                                     Intent intent = new Intent(loginPage.this, home.class);
                                     startActivity(intent);
                                     finish();

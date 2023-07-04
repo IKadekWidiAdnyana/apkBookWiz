@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.example.apkbookwiz.detailBukuFiksi1.detBukuFiksi1;
 import com.example.apkbookwiz.fiksi.bukufiksi1;
 import com.example.apkbookwiz.fiksi.bukufiksi2;
 import com.example.apkbookwiz.fiksi.bukufiksi3;
@@ -35,7 +36,7 @@ public class fiksiPage extends AppCompatActivity {
         fiksi1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(fiksiPage.this, bukufiksi1.class);
+                Intent intent = new Intent(fiksiPage.this, detBukuFiksi1.class);
                 startActivity(intent);
             }
         });
